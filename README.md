@@ -1,3 +1,7 @@
+Este projeto tenta utilizar [next-auth](https://authjs.dev/) na versão beta.
+
+Algumas coisas não fluíram do jeito que eu queria, mas fica como um aprendizado em como começar a implementação da lib no projeto Next.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
