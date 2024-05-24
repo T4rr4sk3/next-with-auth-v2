@@ -29,7 +29,7 @@ export default function LoginFormWrapper({ children, className, onSubmit, ...pro
 
           const error = await login(formData)
 
-          if(!!error?.code) return // error message
+          if(!!error?.code) return alert(error.code) // error message
 
           const url = params.get("callbackUrl") || "/inicio"
 

@@ -6,7 +6,7 @@ export default async function NavigationHeader() {
 
   async function handleSignout() {
     "use server"
-    return signOut()
+    return signOut({ redirectTo: "/inicio" })
   }
 
   async function handleSignin() {

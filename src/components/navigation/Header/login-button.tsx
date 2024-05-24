@@ -4,7 +4,7 @@ import { signIn } from "next-auth/react"
 
 export default function NavigationHeaderLoginButton() {
   const handleSignin = () => {
-    signIn()//"coppetec", { callbackUrl: "/inicio" })
+    signIn(undefined)//"coppetec", { callbackUrl: "/inicio" })
   }
 
   return(

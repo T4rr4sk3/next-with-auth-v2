@@ -29,7 +29,8 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
           }
         }
 
-        return null
+        throw new MyError()
+
       },
       type: "credentials"
     })

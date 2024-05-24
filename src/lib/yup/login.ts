@@ -8,6 +8,7 @@ const loginSchema = object({
     then: (s) => s.matches(cpfCompleteRexp, "CPF incompleto."),
     otherwise: (s) => s.email("E-mail inválido.")
   }),
+  //login: string().optional(),
   password: string().required("Senha obrigatória"),
   //type: string().oneOf(["CPF" as const, "EMAIL" as const]).required(),
 })
